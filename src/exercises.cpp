@@ -8,7 +8,7 @@ void exercise_1(string s1, string s2, string s3) {
   std::string menor = s1;
   if(s2 < menor) menor = s2;
   if(s3 < menor) menor = s3;
-  std::cout<<menor<<std::endl;
+  std::cout<<menor;
 }
 
 void exercise_2(double A, double B, double C) {
