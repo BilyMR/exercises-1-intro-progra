@@ -14,7 +14,7 @@ void exercise_1(string s1, string s2, string s3) {
 void exercise_2(double A, double B, double C) {
   double x1 = -B+sqrt((B*B)-4*A*C)/(2*A);
   double x2 = -B-sqrt((B*B)-4*A*C)/(2*A);
-  std::cout<<x1<<" "<<x2<<std::endl;
+  std::cout<<x1<<" "<<x2<<std::endl ;
 }
 
 void exercise_3(int a, int b) {
